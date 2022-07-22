@@ -1,11 +1,12 @@
 {
   "expo": {
+    "icon": "./assets/icon.png",
     "name": "ThePlanets",
     "slug": "ThePlanets",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#070724",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -14,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
